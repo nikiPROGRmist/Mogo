@@ -1,0 +1,21 @@
+
+.studio{
+
+    background-color: #f8f8f8;
+@media (max-width:769px) {
+    display: none;
+}
+
+
+}
+
+.arrow .studio{
+    display: none;
+}
+
+
+.studio__img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

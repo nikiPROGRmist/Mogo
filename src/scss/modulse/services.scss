@@ -1,0 +1,44 @@
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services__item{
+    width: 33.333%;
+    position: relative;
+    padding-left:  70px;
+
+    @media (max-width:768px){
+        width: 100%;
+        margin: 20px;
+
+    }
+
+
+}
+
+.servies__img{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 1;
+
+}
+
+.services__subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 15px;
+    color: #333333;
+}
+
+.servises__title{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: inherit;
+    font-size: 15px;
+    color: #999999;
+
+}
+
+

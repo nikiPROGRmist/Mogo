@@ -1,0 +1,192 @@
+// * Слайдер */
+.slick-slider {
+    margin: 0 auto;
+}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized {}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted {}
+
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+}
+
+/* Слайд */
+.slick-slide {}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {}
+
+/* Слайд основной */
+.slick-slide.slick-current {}
+
+/* Слайд по центру */
+.slick-slide.slick-center {}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned {}
+
+/* Стрелка */
+.slick-arrow {}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {}
+
+/* Точки (булиты) */
+.slick-dots {
+    display: flex;
+    justify-content: space-between;
+    margin: -59px auto 0;
+    position: relative;
+    z-index: 4;
+
+}
+
+.slick-dots li {
+    width: 100%;
+    height: 5px;
+    margin: 0 10px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+
+
+
+
+}
+
+
+
+
+
+/* Активная точка */
+.slick-dots li.slick-active .a {
+    width: 100%;
+    height: 5px;
+    display: inline-block;
+    animation: marquee 5s infinite linear;
+    position: absolute;
+
+    top: 0;
+    background-color: #F38181;
+
+
+
+
+    &:hover {
+        animation: none;
+        background: #F38181;
+    }
+
+    @-webkit-keyframes marquee {
+        0% {
+            -webkit-transform: translate(-100%, 0);
+        }
+
+        100% {
+            -webkit-transform: translate(0, 0);
+        }
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translate(-100%, 0);
+        }
+
+        100% {
+            transform: translate(0, 0)
+        }
+    }
+
+
+
+}
+
+/* Элемент точки */
+.slick-dots li .a {
+    width: 100%;
+    height: 9px;
+    font-size: 0;
+    background: none;
+    text-decoration: none;
+
+
+
+}
+
+
+ body.no-arrow .reviews__content .slick-arrow {
+    width: 30px;
+    height: 40px;
+    font-size: 0;
+    border: transparent;
+}
+ body.arrow .reviews__content .slick-arrow {
+    font-size: 0;
+    border: none;
+}
+
+body.no-arrow .reviews__content .slick-arrow.slick-prev {
+    background: url("../images/arrows-left.svg")no-repeat;
+    margin-left: 15px;
+    @media (max-width:991px) {
+        background: none;
+    }
+}
+
+body.no-arrow .reviews__content .slick-arrow.slick-next {
+    background: url("../images/arrows-right.svg")no-repeat;
+    margin-right: -3px;
+
+    @media (max-width:991px) {
+        background: none;
+    }
+}
+
+
+
+body.no-arrow .recall__content .slick-arrow {
+    width: 30px;
+    height: 40px;
+    font-size: 0;
+    border: transparent;
+}
+body.arrow .recall__content .slick-arrow {
+    font-size: 0;
+    border: none;
+}
+
+body.no-arrow .recall__content .slick-arrow.slick-prev {
+    background: url("../images/arrows-left.svg")no-repeat;
+    margin-left: 15px;
+
+    @media (max-width:991px) {
+        background: none;
+    }
+}
+
+body.no-arrow .recall__content .slick-arrow.slick-next {
+    background: url("../images/arrows-right.svg")no-repeat;
+    margin-right: -3px;
+
+    @media (max-width:991px) {
+        background: none;
+    }
+}
+
+
+

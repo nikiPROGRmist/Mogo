@@ -1,0 +1,43 @@
+.statictiks{
+    background-color: #95e1d3;
+}
+
+.statictiks__start{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.start__item{
+    flex:1 1 0;
+    color: #fff;
+    border-left: 1px  #b5eae0 solid;
+    padding: 70px 30px;
+
+    @media (max-width:810px) {
+        border: none;
+    }
+}
+
+.start__item:last-child{
+    border-right: 1px #b5eae0 solid ;
+
+    @media (max-width:810px) {
+        border: none;
+    }
+}
+
+
+
+
+
+.start__number{
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.start__text{
+    font-weight: 400;
+    text-align: center;
+}

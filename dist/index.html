@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap&_v=20220802170454"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220802170454">
+    <script src="https://kit.fontawesome.com/8d80861676.js?_v=20220802170454" crossorigin="anonymous"></script>
+</head>
+<body  >
+    <svg display = "none">
+        <symbol id="korzina" viewBox="0 0 510 510">
+            <path d="M153 408c-28.05 0-51 22.95-51 51s22.95 51 51 51 51-22.95 51-51-22.95-51-51-51zM0 0v51h51l91.8 193.8-35.7 61.2c-2.55 7.65-5.1 17.85-5.1 25.5 0 28.05 22.95 51 51 51h306v-51H163.2c-2.55 0-5.1-2.55-5.1-5.1v-2.551l22.95-43.35h188.7c20.4 0 35.7-10.2 43.35-25.5L504.9 89.25c5.1-5.1 5.1-7.65 5.1-12.75 0-15.3-10.2-25.5-25.5-25.5H107.1L84.15 0H0zm408 408c-28.05 0-51 22.95-51 51s22.95 51 51 51 51-22.95 51-51-22.95-51-51-51z"/>
+        </symbol>
+    </svg>
+
+
+    <svg display = "none">
+        <symbol id="facebook" viewBox="0 0 9 16">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99329 0.014688C7.99329 0.93736 7.99329 2.59021 7.99329 2.59021C7.99329 2.59021 6.09482 2.40125 5.61932 3.12843C5.35943 3.52659 5.5137 4.69067 5.4907 5.52693C6.31947 5.52693 7.1803 5.52693 8.00897 5.52693C7.79599 6.50504 7.64355 7.16725 7.487 8.01363C6.7698 8.01363 5.47662 8.01363 5.47662 8.01363V16.0161C5.47662 16.0161 3.10357 16.0161 1.988 16.0161C1.98869 13.5491 1.98742 10.6708 1.988 8.04522C1.44612 8.04522 1.04535 8.04522 0.503584 8.04522C0.503584 7.12194 0.503584 6.45019 0.503584 5.52693C1.02933 5.52693 1.44555 5.52693 1.97163 5.52693C2.04694 3.68573 2.0752 1.86184 2.9897 0.9332C4.01761 -0.111088 4.99791 0.014688 7.99329 0.014688Z" fill="#95E1D3"/>
+
+        </symbol>
+    </svg>
+    <svg display = "none">
+        <symbol id="twitter" viewBox="0 0 16 14">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8829 0.515536C12.1543 0.493472 12.831 0.956606 13.4775 1.5455C14.0261 1.49841 14.7392 1.19204 15.1592 0.978656C15.2952 0.904148 15.4314 0.829654 15.5675 0.755146C15.3276 1.40364 15.0024 1.91087 14.5024 2.29592C14.3915 2.38175 14.2813 2.49739 14.1421 2.55163C14.1421 2.55461 14.1421 2.55699 14.1421 2.55937C14.8544 2.55223 15.442 2.23096 16 2.05691C16 2.05929 16 2.06168 16 2.06465C15.7069 2.53077 15.3101 3.00343 14.8868 3.34198C14.7161 3.47788 14.5451 3.61319 14.3743 3.74909C14.3837 4.50367 14.3632 5.22311 14.2223 5.8567C13.4024 9.54206 11.2303 12.0431 7.79182 13.1142C6.55699 13.4992 4.56173 13.6578 3.14712 13.3061C2.4456 13.132 1.81182 12.9354 1.21718 12.6755C0.886912 12.5306 0.580896 12.3751 0.288272 12.1963C0.192144 12.1378 0.096016 12.0794 0 12.0204C0.319056 12.03 0.692352 12.1182 1.04907 12.0604C1.37179 12.0085 1.68822 12.0222 1.98589 11.9566C2.7285 11.7939 3.38779 11.5787 3.95587 11.2462C4.23122 11.0852 4.64915 10.8963 4.84485 10.6638C4.476 10.6698 4.14173 10.5845 3.86787 10.488C2.80597 10.1131 2.18787 9.42344 1.78573 8.38811C2.10754 8.42328 3.0344 8.50732 3.25126 8.32433C2.84614 8.30169 2.45658 8.06744 2.17814 7.89279C1.32395 7.35874 0.62736 6.46169 0.632624 5.08243C0.744656 5.13548 0.856816 5.18913 0.96896 5.24217C1.18342 5.33278 1.40166 5.38105 1.65766 5.4341C1.7657 5.45616 1.98189 5.51993 2.10605 5.47344C2.10078 5.47344 2.09541 5.47344 2.09003 5.47344C1.92477 5.28151 1.65549 5.15337 1.48944 4.94714C0.941376 4.26525 0.427888 3.21741 0.752784 1.96869C0.835184 1.6522 0.965872 1.37264 1.10504 1.11455C1.11042 1.11695 1.11579 1.11992 1.12106 1.1229C1.1848 1.25581 1.32717 1.35416 1.41734 1.46563C1.69726 1.81252 2.04253 2.12485 2.39432 2.39963C3.59309 3.33721 4.67261 3.91359 6.4064 4.34036C6.84619 4.44825 7.35454 4.5305 7.87982 4.53169C7.7323 4.10194 7.77968 3.40635 7.89584 2.99092C8.18802 1.94485 8.8227 1.19085 9.75379 0.787332C9.97638 0.690774 10.2232 0.620438 10.4824 0.563808C10.6159 0.547722 10.7494 0.531622 10.8829 0.515536Z" fill="#95E1D3"/>
+
+        </symbol>
+    </svg>
+    <svg display = "none">
+        <symbol id="instagram" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9999 16.015H1.99997C0.895376 16.015 0 15.1197 0 14.0152V2.01502C0 0.909952 0.895376 0.014688 1.99997 0.014688H13.9999C15.1046 0.014688 16 0.909952 16 2.01502V14.0152C16 15.1197 15.1046 16.015 13.9999 16.015ZM7.99998 4.91478C6.75269 4.91478 5.6805 5.65328 5.18851 6.71485H5.18578C5.18062 6.72618 5.17707 6.7381 5.17203 6.74941C5.14262 6.81438 5.11664 6.88234 5.0917 6.95029C5.07979 6.98246 5.06698 7.01406 5.05611 7.04744C5.03322 7.11717 5.01445 7.18811 4.99659 7.25963C4.98813 7.29301 4.97818 7.32579 4.97074 7.35976C4.95448 7.43546 4.94315 7.51235 4.93251 7.58984C4.92816 7.62083 4.92163 7.65182 4.91821 7.68342C4.90664 7.7925 4.90002 7.90277 4.90002 8.01482C4.90002 9.72726 6.28784 11.1149 7.99998 11.1149C9.71202 11.1149 11.1 9.72726 11.1 8.01482C11.1 7.90277 11.0933 7.7925 11.0816 7.68342C11.0783 7.65182 11.0718 7.62083 11.0675 7.58984C11.0567 7.51235 11.0454 7.43546 11.0291 7.35976C11.0218 7.32579 11.0118 7.29301 11.0034 7.25963C10.9854 7.18811 10.9666 7.11717 10.9439 7.04744C10.933 7.01406 10.9202 6.98246 10.9083 6.95029C10.8833 6.88234 10.8572 6.81438 10.8278 6.74941C10.8229 6.7381 10.8193 6.72618 10.8142 6.71485H10.8113C10.3195 5.65328 9.24717 4.91478 7.99998 4.91478ZM14.1999 2.61523C14.1999 2.17298 13.8419 1.81534 13.4 1.81534H11.8C11.3581 1.81534 10.9999 2.17298 10.9999 2.61523V4.21502C10.9999 4.65669 11.3581 5.01491 11.8 5.01491H13.4C13.8419 5.01491 14.1999 4.65669 14.1999 4.21502V2.61523ZM14.1999 6.71485H12.7252C12.8389 7.1291 12.9 7.5648 12.9 8.01482C12.9 10.7209 10.7062 12.9149 7.99998 12.9149C5.29381 12.9149 3.09997 10.7209 3.09997 8.01482C3.09997 7.5648 3.16096 7.1291 3.27472 6.71485H1.79992V13.415C1.79992 13.8567 2.15811 14.2149 2.59997 14.2149H13.4C13.8419 14.2149 14.1999 13.8567 14.1999 13.415V6.71485Z" fill="#95E1D3"/>
+
+        </symbol>
+    </svg>
+    <svg display = "none">
+        <symbol id="pinterest" viewBox="0 0 512 512">
+            <path d="M236.3,335.8c-1.9,7.7-3.6,14.5-5.3,21.3c-1.9,7.8-3.7,15.6-5.5,23.4c-2.2,9.5-3.9,19.1-6.7,28.3c-4,13.1-8,26.2-13.4,38.7   c-5,11.5-11.6,22.4-17.9,33.3c-5.2,8.9-11.1,17.5-16.9,26.1c-0.9,1.3-3.4,2.6-4.5,2.2c-1.4-0.5-3-2.7-3.2-4.3   c-3.8-30.3-5.8-60.8-1.8-91.2c1.6-12.3,4.9-24.3,7.4-36.5c1.6-8,3.2-16.1,4.9-24.2c2.1-9.9,4.3-19.9,6.5-29.8   c3.2-14.6,6.5-29.1,9.8-43.7c2.7-11.7,5.3-23.5,8.2-35.2c1.4-5.6-1.5-10.2-2.8-15.2c-4.3-17.2-7-34.3-3.8-52.2   c2.3-12.9,5.7-25.2,13-36.1c9.5-14.2,22.3-23.5,40.4-22.5c15.5,0.9,26.3,11,30.3,25.3c4.5,15.8,2.5,31.6-1.6,47.2   c-4.4,17-9.1,33.8-13.4,50.8c-2.7,10.6-6.6,21.2-7.2,32c-0.9,16.1,5.4,30.2,19.5,39.3c11.2,7.2,23.1,8.6,36.3,5.4   c17.5-4.3,29.6-15.2,39.8-29c12.1-16.3,18.9-34.8,24.2-54.3c6.5-24.2,9-48.6,8.5-73.5c-0.4-23-6.5-44.3-19.5-63.3   c-9.8-14.2-22.7-24.8-38.7-31.8c-10.2-4.5-20.3-8.4-31.5-8.9c-12.1-0.5-24.3-2.6-36.2-1.4c-35.9,3.9-65.6,19.7-88,48.5   c-8.9,11.5-16,24-20.7,37.5c-7.2,20.8-10.4,42.4-8.3,64.5c1.5,15.5,6,30.4,16.2,42.4c7,8.2,5.7,16.2,3.3,25   c-1.3,4.6-2.5,9.2-3.5,13.9c-1.7,8.4-6.4,12.7-16.1,8c-19.4-9.4-31.7-24.9-40.3-44.1c-12-26.9-14.1-55.3-11.3-83.9   c3.3-32.4,15.8-61.7,35-88c13.9-19,31.2-34.4,51.4-46.5c15.8-9.5,32.6-16.2,50.4-20.8c23.1-6,46.5-7.8,70-5.9   c17.6,1.4,34.6,5.6,51.1,12.4c28.5,11.8,51.8,29.9,70,54.6c10.8,14.7,19.1,30.8,24.5,48.4c3.2,10.4,5.9,20.8,6.2,31.7   c0.4,12.3,1.8,24.6,1.1,36.7c-0.7,12.9-3.3,25.8-5.3,38.6c-3.3,21.2-10.4,41.2-19.9,60.3c-8.2,16.4-18.5,31.3-31.8,44.2   c-13.4,13-28.8,22.7-46.4,29.1c-16.7,6.1-33.8,8.3-51.2,6.2c-20.7-2.6-38.2-11.9-51.3-28.7C239.4,339.1,238,337.7,236.3,335.8z"/>
+        </symbol>
+    </svg>
+    <svg display = "none">
+        <symbol id="youtube" viewBox="0 0 512 512">
+            <path d="M260.4,449c-57.1-1.8-111.4-3.2-165.7-5.3c-11.7-0.5-23.6-2.3-35-5c-21.4-5-36.2-17.9-43.8-39c-6.1-17-8.3-34.5-9.9-52.3   C2.5,305.6,2.5,263.8,4.2,222c1-23.6,1.6-47.4,7.9-70.3c3.8-13.7,8.4-27.1,19.5-37c11.7-10.5,25.4-16.8,41-17.5   c42.8-2.1,85.5-4.7,128.3-5.1c57.6-0.6,115.3,0.2,172.9,1.3c24.9,0.5,50,1.8,74.7,5c22.6,3,39.5,15.6,48.5,37.6   c6.9,16.9,9.5,34.6,11,52.6c3.9,45.1,4,90.2,1.8,135.3c-1.1,22.9-2.2,45.9-8.7,68.2c-7.4,25.6-23.1,42.5-49.3,48.3   c-10.2,2.2-20.8,3-31.2,3.4C366.2,445.7,311.9,447.4,260.4,449z M205.1,335.3c45.6-23.6,90.7-47,136.7-70.9   c-45.9-24-91-47.5-136.7-71.4C205.1,240.7,205.1,287.6,205.1,335.3z"/>
+        </symbol>
+    </svg>
+    <svg display = "none">
+        <symbol id="internet" viewBox="0 0 16 16">
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8375 6.4043C15.7326 5.89051 15.5752 5.38387 15.371 4.90048C15.1706 4.42542 14.9222 3.96886 14.6333 3.54149C14.3472 3.1177 14.0187 2.71955 13.657 2.35834C13.2952 1.99595 12.8969 1.66752 12.4734 1.38142C12.0462 1.09174 11.5884 0.844384 11.1144 0.64352C10.6311 0.439664 10.1252 0.281712 9.61085 0.177408C9.08397 0.068928 8.54198 0.014688 8.00034 0.014688C7.45787 0.014688 6.91589 0.068928 6.38866 0.177408C5.87482 0.281712 5.36875 0.439664 4.88547 0.64352C4.41146 0.844384 3.95381 1.09174 3.52614 1.38142C3.10272 1.66752 2.70446 1.99595 2.34259 2.35834C1.98096 2.71955 1.65264 3.1177 1.36653 3.54149C1.07768 3.96886 0.829232 4.42542 0.628848 4.90048C0.424448 5.38387 0.267328 5.89051 0.162048 6.4043C0.054352 6.93002 -0.000352 7.47301 -0.000352 8.01422C-0.000352 8.55722 0.054352 9.09963 0.162048 9.62594C0.267328 10.1403 0.424448 10.6464 0.628848 11.1292C0.829232 11.6036 1.07768 12.062 1.36653 12.4888C1.65264 12.9125 1.98096 13.3101 2.34259 13.6725C2.70446 14.0343 3.10272 14.3621 3.52614 14.6482C3.95381 14.9373 4.41146 15.1859 4.88547 15.3861C5.36875 15.5906 5.87482 15.7467 6.38866 15.8522C6.91589 15.9613 7.45787 16.0156 8.00034 16.0156C8.54198 16.0156 9.08397 15.9613 9.61085 15.8522C10.1252 15.7467 10.6311 15.5906 11.1144 15.3861C11.5884 15.1859 12.0462 14.9373 12.4734 14.6482C12.8969 14.3621 13.2952 14.0343 13.657 13.6725C14.0187 13.3101 14.3472 12.9125 14.6333 12.4888C14.9222 12.062 15.1706 11.6036 15.371 11.1292C15.5752 10.6464 15.7326 10.1403 15.8375 9.62594C15.9456 9.09963 16.0003 8.55722 16.0003 8.01422C16.0003 7.47301 15.9456 6.93002 15.8375 6.4043ZM14.8302 7.94686C14.7313 7.92541 12.419 7.42771 10.0714 7.72275C10.0233 7.60594 9.97466 7.48851 9.92408 7.3699C9.78182 7.03611 9.62894 6.7047 9.46998 6.37926C12.168 5.27778 13.2636 3.69349 13.2765 3.67501C14.2348 4.8385 14.8145 6.32563 14.8302 7.94686ZM12.5126 2.88763C12.4958 2.91386 11.5227 4.39502 8.94366 5.36122C7.7759 3.21546 6.49269 1.51016 6.38992 1.37546C6.90638 1.25029 7.44494 1.18234 8.00034 1.18234C9.72998 1.18234 11.3088 1.82726 12.5126 2.88763ZM6.36371 1.38083C6.36336 1.38142 6.36245 1.38202 6.36245 1.38202C6.36245 1.38202 6.35456 1.3844 6.34197 1.38678C6.34894 1.3844 6.3565 1.38322 6.36371 1.38083ZM5.08494 1.8356C5.1757 1.9572 6.43923 3.67083 7.62198 5.7725C4.34131 6.64392 1.49424 6.60994 1.31389 6.60637C1.75781 4.4904 3.17939 2.73563 5.08494 1.8356ZM1.16774 8.01422C1.16774 7.9415 1.17094 7.86998 1.17347 7.79846C1.29386 7.80144 4.66998 7.87773 8.18766 6.82571C8.38371 7.20837 8.5707 7.59758 8.74202 7.98621C8.65162 8.01184 8.56224 8.03926 8.47274 8.06846C4.78568 9.25997 2.9156 12.5776 2.9156 12.5776C2.9156 12.5776 2.91778 12.5793 2.91813 12.5811C1.83024 11.37 1.16774 9.76958 1.16774 8.01422ZM8.00034 14.8473C6.34632 14.8473 4.82986 14.2596 3.6479 13.2815C3.73798 13.3542 3.8008 13.4013 3.8008 13.4013C3.8008 13.4013 5.11058 10.5444 9.1627 9.13301C9.17758 9.12763 9.1928 9.12347 9.2079 9.1187C10.1693 11.6167 10.5663 13.7088 10.6675 14.3067C9.84786 14.6548 8.9463 14.8473 8.00034 14.8473ZM11.8179 13.682C11.7484 13.269 11.3844 11.2645 10.4879 8.8016C12.6937 8.44874 14.6048 9.05314 14.7458 9.09963C14.4417 11.0034 13.352 12.6461 11.8179 13.682Z" fill="#95E1D3"/>
+        </symbol>
+    </svg>
+    <svg display = "none">
+        <symbol id="tumbir" viewBox="0 0 10 16">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.009 15.1453C9.32871 15.466 8.71222 15.6931 8.16039 15.823C7.60809 15.953 7.01163 16.0179 6.37053 16.0179C5.64211 16.0179 5.21273 15.9256 4.65334 15.742C4.09407 15.5566 3.61651 15.292 3.22215 14.9516C2.82584 14.6089 2.55301 14.2435 2.39943 13.8596C2.24699 13.474 2.17066 12.9161 2.17066 12.183V6.56882H0.00716V4.30205C0.63269 4.09819 1.35802 3.80494 1.80296 3.42347C2.251 3.04141 2.60817 2.58365 2.87802 2.04781C3.14845 1.51434 3.33464 0.834848 3.43592 0.008128H5.70139V3.71197H9.38342V6.56882H5.70139V10.6738C5.70139 11.603 5.68926 12.1383 5.78711 12.4005C5.88438 12.6628 6.12826 12.9346 6.3941 13.092C6.7467 13.3041 7.14861 13.4108 7.6026 13.4108C8.40929 13.4108 9.21084 13.1468 10.009 12.6205V15.1453Z" fill="#95E1D3"/>
+        </symbol>
+    </svg>
+<header   class="header" >
+        <div class="container">
+            <div class="header__inner">
+                <div class="burger">
+                    <span></span>
+                </div>
+                <div  class="header__logo">MoGo</div>
+                <div class="nav__menu">
+                <div class="nav">
+                    <a class="nav__inner " href="#">ABOUT</a>
+                    <a class="nav__inner " href="#">SERVICE</a>
+                    <a class="nav__inner " href="#">WORK</a>
+                    <a class="nav__inner " href="#">BLOG</a>
+                    <a class="nav__inner " href="#">CONTACT</a>
+                    <a class="nav__inner" href="#">
+                        <svg class="icone__korzina ">
+                            <use xlink:href="#korzina"></use>
+                        </svg>
+
+                    </a>
+                    <a class="nav__inner " href="#">
+                        <form id="content">
+                            <input type="text" name="input" class="input" id="search-input">
+                            <button type="reset" class="search" id="search-btn"></button>
+                        </form>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</header>
+<div class="intro__page">
+    <div class="slider">
+        <div class="intro__slider-1">
+            <div class="intro ">
+                <div class="container">
+                    <div class="intro__inner">
+                        <h2 class="intro__suptitle">Creative Template</h2>
+                        <h1 class="intro__title">welcome to work</h1>
+                        <a href="#" class="btn">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro__slider-2">
+            <div class="intro">
+                <div class="container">
+                    <div class="intro__inner">
+                        <h2 class="intro__suptitle">Creative Template</h2>
+                        <h1 class="intro__title">hello work</h1>
+                        <a href="#" class="btn">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro__slider-3">
+            <div class="intro">
+                <div class="container">
+                    <div class="intro__inner">
+                        <h2 class="intro__suptitle">Creative Template</h2>
+                        <h1 class="intro__title">goodby work</h1>
+                        <a href="#" class="btn">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro__slider-4">
+            <div class="intro ">
+                <div class="container">
+                    <div class="intro__inner">
+                        <h2 class="intro__suptitle">Creative Template</h2>
+                        <h1 class="intro__title">hi </h1>
+                        <a href="#" class="btn">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content__footer">
+            <div class="content__footer-item">
+                <div class="footer__item-title">
+                    <span>01</span>
+                    <div class="span-content">intro</div>
+                 </div>
+            </div>
+            <div class="content__footer-item">
+                <div class="footer__item-title">
+                    <span>02</span>
+                    <div class="span-content">work</div>
+                </div>
+            </div>
+            <div class="content__footer-item">
+                <div class="footer__item-title">
+                    <span>03</span>
+                    <div class="span-content">about</div>
+                </div>
+            </div>
+            <div class="content__footer-item">
+                <div class="footer__item-title">
+                    <span>04</span>
+                    <div class="span-content">contacts</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="section">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__subtitle"> For all devices</div>
+            <div class="section__title">What we do</div>
+            <div class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. </div>
+        </div>
+
+
+
+        <!-- about -->
+
+
+
+
+        <div class="about">
+            <div class="about__item">
+                <div class="about__img">
+                    <picture><source srcset="images/about/1.webp"type="image/webp"><img class="about__images" src="images/about/1.jpg" alt=""></picture>
+                </div>
+                <a class="about__text" href="#" target="_blank">
+                    <div class="text__img">
+                        <picture><source srcset="images/USERS.webp"type="image/webp"><img class="logo-img" src="images/USERS.png" alt=""></picture>
+                    </div>
+                    <div class="text">SUPER TEAM</div>
+                </a>
+            </div>
+            <div class="about__item">
+                <div class="about__img">
+                    <picture><source srcset="images/about/2.webp"type="image/webp"><img class="about__images" src="images/about/2.jpg" alt=""></picture>
+                </div>
+                <a class="about__text" href="#" target="_blank">
+                    <div class="text__img">
+                        <picture><source srcset="images/USERS.webp"type="image/webp"><img class="logo-img" src="images/USERS.png" alt=""></picture>
+                    </div>
+                    <div class="text">SUPER TEAM</div>
+                </a>
+            </div>
+            <div class="about__item">
+                <div class="about__img">
+                    <picture><source srcset="images/about/3.webp"type="image/webp"><img class="about__images" src="images/about/3.jpg" alt=""></picture>
+                </div>
+                <a class="about__text" href="#" target="_blank">
+                    <div class="text__img">
+                        <picture><source srcset="images/USERS.webp"type="image/webp"><img class="logo-img" src="images/USERS.png" alt=""></picture>
+                    </div>
+                    <div class="text">SUPER TEAM</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- sttatstick-number -->
+
+<div class="statictiks">
+    <div class="container">
+        <div class="statictiks__start">
+            <div class="start__item">
+                <div class="start__number">42</div>
+                <div class="start__text">WEB DESIGN PROJECTS</div>
+            </div>
+            <div class="start__item">
+                <div class="start__number">123</div>
+                <div class="start__text">HAPPY CLIENT</div>
+            </div>
+            <div class="start__item">
+                <div class="start__number">15</div>
+                <div class="start__text">AWARD WINNER</div>
+            </div>
+            <div class="start__item">
+                <div class="start__number">99</div>
+                <div class="start__text">CUP OF COFFEE</div>
+            </div>
+            <div class="start__item">
+                <div class="start__number">24</div>
+                <div class="start__text">MEMBERS</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- services -->
+
+
+<section class="section">
+    <div class="container">
+        <div class="section__header">
+            <div class="section__subtitle">We work with</div>
+            <div class="section__title">AMAZING SERVICES</div>
+        </div>
+        <div class="services">
+            <div class="services__item">
+                <picture><source srcset="images/icon/1.webp"type="image/webp"><img class="servies__img" src="images/icon/1.jpg" alt=""></picture>
+                <div class="services__subtitle">PHOTOGRAPHY</div>
+                <div class="servises__title">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Culpa optio veniam ipsum nobis, et soluta
+                    incidunt aspernatur ea nesciunt labore voluptatem quasi dicta commodi, porro omnis vero doloribus
+                    dolorem eum?</div>
+            </div>
+            <div class="services__item">
+                <picture><source srcset="images/icon/2.webp"type="image/webp"><img class="servies__img" src="images/icon/2.jpg" alt=""></picture>
+                <div class="services__subtitle">WEB DESIGN</div>
+                <div class="servises__title">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Culpa optio veniam ipsum nobis, et soluta
+                    incidunt aspernatur ea nesciunt labore voluptatem quasi dicta commodi, porro omnis vero doloribus
+                    dolorem eum?.</div>
+            </div>
+            <div class="services__item">
+                <picture><source srcset="images/icon/3.webp"type="image/webp"><img class="servies__img" src="images/icon/3.jpg" alt=""></picture>
+                <div class="services__subtitle">CREATIVITY</div>
+                <div class="servises__title">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Culpa optio veniam ipsum nobis, et soluta
+                    incidunt aspernatur ea nesciunt labore voluptatem quasi dicta commodi, porro omnis vero doloribus
+                    dolorem eum?</div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="services">
+            <div class="services__item">
+                <picture><source srcset="images/icon/4.webp"type="image/webp"><img class="servies__img" src="images/icon/4.jpg" alt=""></picture>
+                <div class="services__subtitle">SEO</div>
+                <div class="servises__title">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Culpa optio veniam ipsum nobis, et soluta
+                    incidunt aspernatur ea nesciunt labore voluptatem quasi dicta commodi, porro omnis vero doloribus
+                    dolorem eum?</div>
+            </div>
+            <div class="services__item">
+                <picture><source srcset="images/icon/5.webp"type="image/webp"><img class="servies__img" src="images/icon/5.jpg" alt=""></picture>
+                <div class="services__subtitle">CSS/HTML</div>
+                <div class="servises__title">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Culpa optio veniam ipsum nobis, et soluta
+                    incidunt aspernatur ea nesciunt labore voluptatem quasi dicta commodi, porro omnis vero doloribus
+                    dolorem eum?</div>
+            </div>
+            <div class="services__item">
+                <picture><source srcset="images/icon/6.webp"type="image/webp"><img class="servies__img" src="images/icon/6.jpg" alt=""></picture>
+                <div class="services__subtitle">DIGITAL</div>
+                <div class="servises__title">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Culpa optio veniam ipsum nobis, et soluta
+                    incidunt aspernatur ea nesciunt labore voluptatem quasi dicta commodi, porro omnis vero doloribus
+                    dolorem eum?</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section-image-phone -->
+
+<div class="section--intro ">
+    <div class="container">
+        <div class="section__header ">
+            <div class="section__title-content">
+                <div class="section__subtitle"> For all devices</div>
+                <div class="section__title">UNIQUE DESIGN</div>
+            </div>
+            <div class="section__img">
+                <picture><source srcset="images/MoGo_FREE_Template_by_Laaqiq_03.webp"type="image/webp"><img class="section__item" src="images/MoGo_FREE_Template_by_Laaqiq_03.png" alt=""></picture>
+
+                <picture><source srcset="images/MoGo_FREE_Template_by_Laaqiq_06.webp"type="image/webp"><img class="setion__item section--iphone" src="images/MoGo_FREE_Template_by_Laaqiq_06.png" alt=""></picture>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="article">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="section__subtitle"> For all devices</div>
+            <div class="section__title">What we do</div>
+            <div class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. </div>
+        </div>
+        <div class="wedo">
+            <div class="wedo__item">
+                <picture><source srcset="images/wedo.webp"type="image/webp"><img class="wedo__img" src="images/wedo.png" alt=""></picture>
+            </div>
+            <div class="wedo__item " id="wedo-click">
+                <div class="dropdown" data-dropdown="dropdown-1">
+                    <div class="dropdown__item">
+                        <div class="down__name">
+                            <picture><source srcset="images/down1.webp"type="image/webp"><img class="down__img" src="images/down1.jpg" alt=""></picture>
+                            <div class="dropdown__title">PHOTOGRAPHY</div>
+                        </div>
+                        <div class="dropdown__arrow"></div>
+                    </div>
+                    <div class="dropdown__content">
+                        <div class="dropdown__text">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Enim, iure?
+                            Eligendi dolor fugit dolorem molestiae enim. Amet iusto quod reiciendis debitis nulla ipsa
+                            dolor. Soluta corrupti deserunt omnis ex corporis.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio enim rerum
+                            quibusdam fugit itaque atque quam ab libero nemo, ipsum sint provident possimus eum ea aut a
+                            exercitationem cumque?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium exercitationem qui magni
+                            eius commodi iste obcaecati eum necessitatibus, aperiam odio inventore totam at vel perspiciatis
+                            fugiat consequuntur asperiores aliquam! Sequi.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fuga dicta harum, alias sunt culpa
+                            illo vitae atque earum consequatur ea dolorem est velit id esse quae modi ex nulla?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fuga dicta harum, alias sunt culpa
+                            illo vitae atque earum consequatur ea dolorem est velit id esse quae modi ex nulla?
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown" data-dropdown="dropdown-2">
+                    <div class="dropdown__item">
+                        <div class="down__name">
+
+                            <picture><source srcset="images/down2.webp"type="image/webp"><img class="down__img" src="images/down2.jpg" alt=""></picture>
+                            <div class="dropdown__title">creativity</div>
+                        </div>
+                        <div class="dropdown__arrow"></div>
+                    </div>
+                    <div class="dropdown__content">
+                    <div class="dropdown__text">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Enim, iure?
+                        Eligendi dolor fugit dolorem molestiae enim. Amet iusto quod reiciendis debitis nulla ipsa
+                        dolor. Soluta corrupti deserunt omnis ex corporis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio enim rerum
+                        quibusdam fugit itaque atque quam ab libero nemo, ipsum sint provident possimus eum ea aut a
+                        exercitationem cumque?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium exercitationem qui magni
+                        eius commodi iste obcaecati eum necessitatibus, aperiam odio inventore totam at vel perspiciatis
+                        fugiat consequuntur asperiores aliquam! Sequi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fuga dicta harum, alias sunt culpa
+                        illo vitae atque earum consequatur ea dolorem est velit id esse quae modi ex nulla?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fuga dicta harum, alias sunt culpa
+                        illo vitae atque earum consequatur ea dolorem est velit id esse quae modi ex nulla?
+                    </div>
+                </div>
+                </div>
+                <div class="dropdown" data-dropdown="dropdown-3">
+                    <div class="dropdown__item">
+                        <div class="down__name">
+
+                            <picture><source srcset="images/down3.webp"type="image/webp"><img class="down__img" src="images/down3.jpg" alt=""></picture>
+                            <div class="dropdown__title">web design</div>
+                        </div>
+                        <div class="dropdown__arrow"></div>
+                    </div>
+                    <div class="dropdown__content">
+                        <div class="dropdown__text">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Enim, iure?
+                            Eligendi dolor fugit dolorem molestiae enim. Amet iusto quod reiciendis debitis nulla ipsa
+                            dolor. Soluta corrupti deserunt omnis ex corporis.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio enim rerum
+                            quibusdam fugit itaque atque quam ab libero nemo, ipsum sint provident possimus eum ea aut a
+                            exercitationem cumque?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium exercitationem qui magni
+                            eius commodi iste obcaecati eum necessitatibus, aperiam odio inventore totam at vel perspiciatis
+                            fugiat consequuntur asperiores aliquam! Sequi.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fuga dicta harum, alias sunt culpa
+                            illo vitae atque earum consequatur ea dolorem est velit id esse quae modi ex nulla?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fuga dicta harum, alias sunt culpa
+                            illo vitae atque earum consequatur ea dolorem est velit id esse quae modi ex nulla?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="reviews__slide">
+        <div class="section reviews--gray">
+            <div class="container">
+                <div class="reviews">
+                    <div class="reviews__icone">
+                        <picture><source srcset="images/shape.webp"type="image/webp"><img class="reviews__photo" src="images/shape.png" alt=""></picture>
+                        <div class="reviews__item-text">
+                            <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation.”</div>
+                            <div class="reviews__after">Jon Doe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section reviews--gray">
+            <div class="container">
+                <div class="reviews">
+                    <div class="reviews__icone">
+                        <picture><source srcset="images/shape.webp"type="image/webp"><img class="reviews__photo" src="images/shape.png" alt=""></picture>
+                        <div class="reviews__item-text">
+                            <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation.”</div>
+                            <div class="reviews__after">Jon Doe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section reviews--gray">
+            <div class="container">
+                <div class="reviews">
+                    <div class="reviews__icone">
+                        <picture><source srcset="images/shape.webp"type="image/webp"><img class="reviews__photo" src="images/shape.png" alt=""></picture>
+                        <div class="reviews__item-text">
+                            <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation.”</div>
+                            <div class="reviews__after">Jon Doe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews__content"></div>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__subtitle">Who we are</div>
+                <div class="section__title">Meet wteam</div>
+                <div class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+            <div class="colums">
+                <div class="coloums__icon">
+                    <div class="colums__item">
+                        <div class="colums__inner">
+                            <div class="item__img">
+                                <picture><source srcset="images/colums1.webp"type="image/webp"><img src="images/colums1.jpg" alt=""></picture>
+                            </div>
+
+                            <div class="icone__text">
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-instagram-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text__colums">
+                            <div class="text__title">MATTHEW DIX</div>
+                            <div class="text__subtitle">Graphic Design</div>
+                        </div>
+                    </div>
+                    <div class="colums__item">
+
+                        <div class="colums__inner">
+                            <div class="item__img">
+                                <picture><source srcset="images/colums2.webp"type="image/webp"><img src="images/colums2.jpg" alt=""></picture>
+                            </div>
+                            <div class="icone__text">
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-instagram-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text__colums">
+                            <div class="text__title">MICHAEL FERTIG </div>
+                            <div class="text__subtitle">Branding/UX design</div>
+                        </div>
+                    </div>
+                    <div class="colums__item">
+                        <div class="colums__inner">
+                            <div class="item__img">
+                                <picture><source srcset="images/colums3.webp"type="image/webp"><img src="images/colums3.jpg" alt=""></picture>
+                            </div>
+                            <div class="icone__text">
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a class="col__icon" href="#" target="_blank">
+                                    <i class="fab fa-instagram-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text__colums">
+                            <div class="text__title">MICHAEL FERTIG </div>
+                            <div class="text__subtitle">Developer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+
+    <div class="studio ">
+        <div class="container">
+            <div class="studio__item">
+                <picture><source srcset="images/studio.webp"type="image/webp"><img class="studio__img" src="images/studio.png" alt=""></picture>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__subtitle">Who we are</div>
+                <div class="section__title">Meet wteam</div>
+                <div class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <works class="works">
+        <div class="works__icone">
+            <div class="works__item">
+                <div class="img__info">
+                    <picture><source srcset="images/works/w1.webp"type="image/webp"><img src="images/works/w1.png" alt=""></picture>
+                </div>
+                <div class="info">
+                    <picture><source srcset="images/picture.webp"type="image/webp"><img src="images/picture.png" alt=""></picture>
+                    <div class="info__title">CREATIVELY DESIGNED</div>
+                    <div class="info__subtitle">Lorem ipsum dolor sit</div>
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="img__info">
+                    <picture><source srcset="images/works/w2.webp"type="image/webp"><img src="images/works/w2.png" alt=""></picture>
+                </div>
+                <div class="info">
+                    <picture><source srcset="images/picture.webp"type="image/webp"><img src="images/picture.png" alt=""></picture>
+                    <div class="info__title">CREATIVELY DESIGNED</div>
+                    <div class="info__subtitle">Lorem ipsum dolor sit</div>
+                </div>
+            </div>
+        </div>
+        <div class="works__icone">
+            <div class="works__item">
+                <div class="img__info">
+                    <picture><source srcset="images/works/w3.webp"type="image/webp"><img src="images/works/w3.png" alt=""></picture>
+                </div>
+                <div class="info">
+                    <picture><source srcset="images/picture.webp"type="image/webp"><img src="images/picture.png" alt=""></picture>
+                    <div class="info__title">CREATIVELY DESIGNED</div>
+                    <div class="info__subtitle">Lorem ipsum dolor sit</div>
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="img__info">
+                    <picture><source srcset="images/works/w4.webp"type="image/webp"><img src="images/works/w4.png" alt=""></picture>
+                </div>
+                <div class="info">
+                    <picture><source srcset="images/picture.webp"type="image/webp"><img src="images/picture.png" alt=""></picture>
+                    <div class="info__title">CREATIVELY DESIGNED</div>
+                    <div class="info__subtitle">Lorem ipsum dolor sit</div>
+                </div>
+            </div>
+        </div>
+        <div class="works__icone">
+            <div class="works__item">
+                <div class="img__info">
+                    <picture><source srcset="images/works/w5.webp"type="image/webp"><img src="images/works/w5.png" alt=""></picture>
+                </div>
+                <div class="info info-5">
+                    <picture><source srcset="images/picture.webp"type="image/webp"><img src="images/picture.png" alt=""></picture>
+                    <div class="info__title">CREATIVELY DESIGNED</div>
+                    <div class="info__subtitle">Lorem ipsum dolor sit</div>
+                </div>
+            </div>
+        </div>
+        <div class="works__icone">
+            <div class="works__item">
+                <div class="img__info">
+                    <picture><source srcset="images/works/w6.webp"type="image/webp"><img src="images/works/w6.png" alt=""></picture>
+                </div>
+                <div class="info">
+                    <picture><source srcset="images/picture.webp"type="image/webp"><img src="images/picture.png" alt=""></picture>
+                    <div class="info__title">CREATIVELY DESIGNED</div>
+                    <div class="info__subtitle">Lorem ipsum dolor sit</div>
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="img__info">
+                    <picture><source srcset="images/works/w7.webp"type="image/webp"><img src="images/works/w7.png" alt=""></picture>
+                </div>
+                <div class="info">
+                    <picture><source srcset="images/picture.webp"type="image/webp"><img src="images/picture.png" alt=""></picture>
+                    <div class="info__title">CREATIVELY DESIGNED</div>
+                    <div class="info__subtitle">Lorem ipsum dolor sit</div>
+                </div>
+            </div>
+        </div>
+    </works>
+
+
+
+
+
+    <div class="recalls__slide">
+        <div class="section ">
+            <div class="container">
+                <div class="recall">
+                    <div class="recall__icone">
+                        <picture><source srcset="images/Clip123.webp"type="image/webp"><img class="recall__photo" src="images/Clip123.png" alt=""></picture>
+                        <div class="text__recall">
+                            <div class="recall__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation.”</div>
+                            <div class="recall__after">Jon Doe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section ">
+            <div class="container">
+                <div class="recall">
+                    <div class="recall__icone">
+                        <picture><source srcset="images/Clip123.webp"type="image/webp"><img class="recall__photo" src="images/Clip123.png" alt=""></picture>
+                        <div class="text__recall">
+                            <div class="recall__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation.”</div>
+                            <div class="recall__after">Jon Doe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section ">
+            <div class="container">
+                <div class="recall">
+                    <div class="recall__icone">
+                        <picture><source srcset="images/Clip123.webp"type="image/webp"><img class="recall__photo" src="images/Clip123.png" alt=""></picture>
+                        <div class="text__recall">
+                            <div class="recall__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation.”</div>
+                            <div class="recall__after">Jon Doe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recall__content">
+        <div class="recalls-content"></div>
+    </div>
+
+
+    <!-- Отзывы -->
+
+    <section class="section  section--clieants">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__subtitle">Happy Clients</div>
+                <div class="section__title">WHAT PEOPLE SAY</div>
+            </div>
+
+            <div class="clients__icone">
+                <div class="clients__item">
+
+                    <div class="clients__img">
+                        <picture><source srcset="images/clients/1.webp"type="image/webp"><img src="images/clients/1.png" alt=""></picture>
+                    </div>
+                    <div class="clients__info">
+                        <div class="clients__title">MATTHEW DIX</div>
+                        <div class="clients__subtitle">Graphic Design</div>
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                        </div>
+                    </div>
+                </div>
+                <div class="clients__item">
+                    <div class="clients__img">
+                        <picture><source srcset="images/clients/2.webp"type="image/webp"><img src="images/clients/2.png" alt=""></picture>
+                    </div>
+                    <div class="clients__info">
+                        <div class="clients__title">MATTHEW DIX</div>
+                        <div class="clients__subtitle">Graphic Design</div>
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clients__icone">
+                <div class="clients__item">
+                    <div class="clients__img">
+                        <picture><source srcset="images/clients/3.webp"type="image/webp"><img src="images/clients/3.png" alt=""></picture>
+                    </div>
+                    <div class="clients__info">
+                        <div class="clients__title">MATTHEW DIX</div>
+                        <div class="clients__subtitle">Graphic Design</div>
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                        </div>
+                    </div>
+                </div>
+                <div class="clients__item">
+
+                    <div class="clients__img">
+                        <picture><source srcset="images/clients/4.webp"type="image/webp"><img src="images/clients/4.png" alt=""></picture>
+                    </div>
+                    <div class="clients__info">
+                        <div class="clients__title">MATTHEW DIX</div>
+                        <div class="clients__subtitle">Graphic Design</div>
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+
+
+
+    <blog class="blog">
+        <div class="container">
+            <div class="section__header  blog--header">
+                <div class="section__subtitle">Our stories</div>
+                <div class="section__title">LATEST BLOG</div>
+            </div>
+            <div class="blog__icone">
+                <div class="blog__item">
+                    <picture><source srcset="images/SEC/1.webp"type="image/webp"><img class="blog__img" src="images/SEC/1.png" alt=""></picture>
+                    <div class="blog__date">
+                        <div class="data">15</div>
+                        <div class="month">jan</div>
+                    </div>
+
+
+                    <a class="blog__title" href="#" target="_blank">LOREM IPSUM DOLOR SIT AMET</a>
+                    <div class="blog__subtitle">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.</div>
+
+                    <div class="footer">
+                        <div class="footer__item">
+                            <i class="fas fa-eye"></i>
+                            <span>1560</span>
+                        </div>
+                        <div class="footer__item">
+                            <i class="fas fa-comment-dots"></i>
+                            <span>98</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <picture><source srcset="images/SEC/2.webp"type="image/webp"><img class="blog__img" src="images/SEC/2.png" alt=""></picture>
+                    <div class="blog__date">
+                        <div class="data">14</div>
+                        <div class="month">jan</div>
+                    </div>
+                    <a class="blog__title" href="#" target="_blank">LOREM IPSUM DOLOR SIT AMET</a>
+                    <div class="blog__subtitle">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.</div>
+
+
+                    <div class="footer">
+                        <div class="footer__item">
+                            <i class="fas fa-eye"></i>
+                            <span>1560</span>
+                        </div>
+                        <div class="footer__item">
+                            <i class="fas fa-comment-dots"></i>
+                            <span>98</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item   ">
+                    <picture><source srcset="images/SEC/3.webp"type="image/webp"><img class="blog__img" src="images/SEC/3.png" alt=""></picture>
+                    <div class="blog__date">
+                        <div class="data">12</div>
+                        <div class="month">jan</div>
+                    </div>
+
+                    <a class="blog__title" href="#" target="_blank">LOREM IPSUM DOLOR SIT AMET</a>
+                    <div class="blog__subtitle">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.</div>
+
+
+                    <div class="footer">
+                        <div class="footer__item">
+                            <i class="fas fa-eye"></i>
+                            <span>1560</span>
+                        </div>
+                        <div class="footer__item">
+                            <i class="fas fa-comment-dots"></i>
+                            <span>98</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </blog>
+
+
+
+
+
+
+    <div class="map map--intro">
+        <div class="container">
+            <div class="map">
+                <h2 class="map__title">
+                    <div> <i class="fas fa-map-marker-alt"></i></div>
+                    <a class="map__subtitle" href="https://yandex.ru/maps/-/CCUmEIC3HB" target="_blank">open map</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <section class="cellar">
+        <div class="container">
+            <div class="cellar__icone">
+                <div class="cellar__item-set ">
+                    <div class="cellar__title">MoGo</div>
+                    <div class="cellar__text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vero
+                        nulla odio dolore deleniti provident, sint facilis aperiam, recusandae velit veniam quisquam
+                        fuga cumque odit voluptates sit eligendi tenetur harum.</div>
+                    <div class="cellar__text2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. </div>
+                    <div class="cellar__followers"><span>15k</span>followers</div>
+                    <hr>
+                    <div class="folowers__icone">
+                        <span>Follow Us:</span>
+                        <div class="followers__icone">
+                            <a class="svg__followers" href="#">
+                                <svg class="facebook ">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="svg__followers" href="#">
+                                <svg class="twitter ">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="svg__followers" href="#">
+                                <svg class="instagram ">
+                                    <use xlink:href="#instagram"></use>
+                                </svg>
+                            </a>
+                            <a class="svg__followers" href="#">
+                                <svg class="pinterest ">
+                                    <use xlink:href="#pinterest"></use>
+                                </svg>
+                            </a>
+                            <a class="svg__followers" href="#">
+                                <svg class="youtube ">
+                                    <use xlink:href="#youtube"></use>
+                                </svg>
+                            </a>
+                            <a class="svg__followers" href="#">
+                                <svg class="internet ">
+                                    <use xlink:href="#internet"></use>
+                                </svg>
+                            </a>
+                            <a class="svg__followers" href="#">
+                                <svg class="tumbir ">
+                                    <use xlink:href="#tumbir"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="followers__serch">
+                        <form class="form" action="/" method="post">
+                            <input class="input__serch" type="text" placeholder="Your Email">
+                            <button class="input__button">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="cellar__item-blog ">
+                    <div class="cellar__blog">blogs</div>
+                    <div class="cellar-blog__item">
+                        <picture><source srcset="images/footer/footer1.webp"type="image/webp"><img class="cellar__blog__img" src="images/footer/footer1.png" alt=""></picture>
+                        <div class="cellar-blog__title">
+                            <div class="cellar-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                            <div class="blog__data">jan 9,2016</div>
+                        </div>
+                    </div>
+                    <div class="cellar-blog__item">
+                        <picture><source srcset="images/footer/footer2.webp"type="image/webp"><img class="cellar__blog__img" src="images/footer/footer2.png" alt=""></picture>
+                        <div class="cellar-blog__title">
+                            <div class="cellar-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                            <div class="blog__data">jan 9,2016</div>
+                        </div>
+                    </div>
+                    <div class="cellar-blog__item">
+                        <picture><source srcset="images/footer/footer3.webp"type="image/webp"><img class="cellar__blog__img" src="images/footer/footer3.png" alt=""></picture>
+                        <div class="cellar-blog__title">
+                            <div class="cellar-blog__text">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+                            <div class="blog__data">jan 9,2016</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cellar__item-instagram ">
+                    <div class="cellar__instagram">instagram</div>
+                    <div class="cellar__footer-insta">
+                        <picture><source srcset="images/footer-insta.webp"type="image/webp"><img class="img__insta" src="images/footer-insta.png" alt=""></picture>
+                        <div class="footer__insta">View more photos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer__text">© 2016 MoGo free PSD template by <span>Laaqiq</span></div>
+    </footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220802170454"></script>
+<script type="text/javascript" src="js/slick.js?_v=20220802170454"></script>
+<script src="js/app.min.js?_v=20220802170454"></script>
+
+</body>
+</html>

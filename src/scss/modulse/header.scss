@@ -1,0 +1,195 @@
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 1260px;
+        margin: 0 auto;
+        padding:0  30px;
+    }
+
+    .header__inner{
+    display: flex;
+    justify-content: space-between;
+    }
+
+
+
+    .header__logo{
+        display: block;
+        padding-top: 28px;
+        font-size: 30px;
+        font-weight: 700;
+        color:#fff;
+
+    }
+
+    .nav{
+        padding-top: 35px;
+        font-weight: 400;
+        align-items: center;
+        font-size: 16px;
+
+
+
+
+
+    }
+
+    .nav__inner{
+        margin-left: 53px;
+        color: #fff;
+        text-decoration: none;
+        transition: color .1s linear;
+        position: relative;
+        left: 0;
+        transition: left .6s ease-in-out;
+
+        &:last-child{
+            transition: none;
+        }
+    }
+
+
+
+    .nav__inner:not(:last-child).active{
+        transition-duration: .3s;
+        left: -210px;
+    }
+
+
+
+    .nav__inner:after{
+        content: "";
+        display:  block;
+        width: 100%;
+        height: 3px;
+        background-color:#fce38a;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        z-index: 1;
+        opacity: 0;
+        transition:opacity .1s linear;
+        }
+
+
+        .nav__inner:hover{
+            color: #fce38a;
+            text-decoration: none;
+        }
+
+
+
+
+        .icone__korzina {
+            display:inline-block;
+            width: 20px;
+            height: 20px;
+            fill: white;
+        }
+
+
+
+
+        @media (max-width:550px) {
+            .nav__inner{
+                margin-left: 0;
+                margin: 10px;
+                font-size: 30px;
+                transition: none;
+
+                &:last-child{
+                    position: absolute;
+                    top: 25px;
+                    left: 40%;
+                }
+
+
+            }
+
+        }
+
+@media (max-width:991px) {
+
+
+    .nav__menu{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background:rgba( #000000, 70%);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+    }
+
+    .header__inner{
+        display: block;
+
+
+        }
+        .nav__inner{
+            margin-left: 0;
+            margin: 10px;
+            font-size: 30px;
+            transition: none;
+
+            &:last-child{
+                position: absolute;
+                top: 25px;
+                left: 60%;
+            }
+
+
+        }
+
+        .header__logo{
+
+            position: absolute;
+            z-index: 1000;
+        }
+
+
+        .nav{
+            display: flex;
+            flex-direction: column;
+            margin-top: 60px;
+
+
+        }
+
+        .nav__inner:not(:last-child).active{
+            transition-duration: .3s;
+            left: 0;
+        }
+
+        .icone__korzina {
+            display:inline-block;
+            width: 30px;
+            height: 30px;
+            fill: white;
+        }
+
+        .nav__menu{
+            left: -100%;
+            transition: left .3s ease;
+        }
+
+        .nav__menu._active{
+            left: 0;
+            overflow: hidden;
+        }
+
+
+
+}
+
+
+

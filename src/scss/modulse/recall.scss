@@ -1,0 +1,65 @@
+.recall__icone{
+ display: flex;
+ @media (max-width:769px) {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+}
+}
+
+
+.recall__photo{
+    display: block;
+
+    @media (max-width:769px) {
+        display: block;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+.text__recall{
+    margin: 40px 0 0 20px;
+}
+
+
+
+.recall__text{
+    color: #e0e0e0;
+    font-size: 24px;
+    font-weight:  300;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+
+    @media (max-width:769px) {
+        font-size: 16px;
+    }
+}
+
+.recall__after{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.recall__after:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 10px;
+
+}
+
+.recall__content{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-200px);
+
+}
+

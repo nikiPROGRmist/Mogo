@@ -1,0 +1,79 @@
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+    margin: 0;
+    font-size:15px;
+
+
+
+
+
+
+
+
+    li{
+      list-style-type: none;
+   }
+
+   ul{
+       padding-left: 0
+   }
+
+
+
+ }
+
+ .no-scroll{
+  overflow: hidden;
+}
+
+
+ *,
+ *:after,
+ *:before{
+box-sizing:border-box;
+ }
+
+ h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+hr{
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 30px 0;
+  background-color: #e5e5e5;
+  border: 0;
+
+}
+
+
+
+
+@import "modulse/header";
+@import "modulse/intro";
+@import "modulse/slider";
+@import "modulse/main";
+@import "modulse/about";
+@import "modulse/serch";
+@import "modulse/burger";
+@import "modulse/slick";
+@import "modulse/statistick";
+@import "modulse/services";
+@import "modulse/section-phone";
+@import "modulse/article";
+@import "modulse/wedo";
+@import "modulse/reviews";
+@import "modulse/colums";
+@import "modulse/studio";
+@import "modulse/works";
+@import "modulse/recall";
+@import "modulse/clients";
+@import "modulse/blog";
+@import "modulse/map";
+@import "modulse/cellar";
+
+
